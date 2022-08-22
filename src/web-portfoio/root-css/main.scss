@@ -1,0 +1,74 @@
+$darkbluetheme: #01030e;
+$redEl: #bd2323;
+$greenEl: #08a515;
+$litebluetheme: rgb(11, 48, 117);
+$Elitebluetheme: rgb(46, 37, 133);
+$literbluetheme: rgb(46, 96, 189);
+$litebluefainttheme: rgba(11, 48, 117, 0.466);
+$textWhite: #ffffff;
+$bluethemeEl: #01092b;
+$textColor: #000000;
+$boardbgfade: #cacaca;
+$headerfont: 12rem;
+$headerweight: 600;
+$fadehover: #c4dbe2;
+$boardcolor: 0px 0px 4px #77757573;
+$boardcolor3: 0px 5px 4px #77757573;
+$boardbg: rgb(230, 228, 228);
+$boardbg2: rgb(190, 190, 190);
+
+$heroborder: 1px solid $textWhite;
+$heroborderhover: 1px solid $literbluetheme;
+
+@mixin HeroButton {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: $heroborder;
+  background-color: transparent;
+  color: $textWhite;
+}
+@mixin HeroButtonsmall {
+  width: 6vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: $heroborder;
+  background-color: transparent;
+  color: $textWhite;
+}
+@mixin HeroButtonHover {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: $heroborderhover;
+  background-color: $darkbluetheme;
+  box-shadow: 0px 0px 8px $literbluetheme;
+  color: $textWhite;
+}
+@mixin HeroButtonHoversmall {
+  width: 6vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: $heroborderhover;
+  background-color: $greenEl;
+  box-shadow: 0px 0px 8px $boardbgfade;
+  color: $textWhite;
+}
+@mixin HeroButtonHoverBig {
+  border-radius: 10px;
+  border: $heroborderhover;
+  background-color: $literbluetheme;
+  color: $textWhite;
+}
+@mixin Board {
+  box-shadow: $boardcolor;
+  background-color: $boardbg;
+}
+@mixin Board2 {
+  box-shadow: $boardcolor;
+  background-color: $boardbg2;
+}
+@mixin Board3 {
+  box-shadow: $boardcolor3;
+  background-color: $boardbg2;
+}

@@ -1,0 +1,93 @@
+.loadermain {
+  position: absolute;
+  background-color: #080813;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loadermain .bg {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  -webkit-filter: opacity(0.2) brightness(0.4);
+          filter: opacity(0.2) brightness(0.4);
+}
+
+.loadermain section {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0c0c18;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.loadermain section h1 {
+  position: relative;
+  top: 5vh;
+  left: 7vw;
+  color: aliceblue;
+}
+
+.loadermain section h1 span {
+  color: #b10d0d;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.loadermain section .contain {
+  position: relative;
+  top: -7vh;
+  -webkit-transform: translate(45%, 130%);
+          transform: translate(45%, 130%);
+  -webkit-box-shadow: 0 0 20px #817575, 0 0 50 px pink;
+          box-shadow: 0 0 20px #817575, 0 0 50 px pink;
+}
+
+.loadermain section .contain .logo {
+  width: 9vw;
+  height: 18.6vh;
+  background-color: aliceblue;
+  background-image: url("../../asset/ksansnew.png");
+  background-position: -155px -65px;
+  background-size: 30em;
+  background-repeat: repeat-x;
+  border-radius: 50%;
+  -webkit-animation: rotate 20s ease infinite;
+          animation: rotate 20s ease infinite;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+.loadermain section .contain .text {
+  color: aliceblue;
+  -webkit-transform: translateX(-4vw);
+          transform: translateX(-4vw);
+  margin-top: 6vh;
+  font-size: 17px;
+}
+/*# sourceMappingURL=Loading.css.map */

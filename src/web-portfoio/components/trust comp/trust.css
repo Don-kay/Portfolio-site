@@ -1,0 +1,1088 @@
+.trustmain {
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+  top: 0vh;
+  background-color: blue;
+}
+
+.trustmain .trustCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 0vh;
+  width: 100vw;
+  min-height: 90vh;
+  background-color: #03000c;
+}
+
+.trustmain .trustCont .contacts {
+  display: block;
+  position: relative;
+  top: -15vh;
+  left: -10vw;
+  width: 20vw;
+  height: 60vh;
+}
+
+.trustmain .trustCont .contacts .ctc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  left: 6vw;
+  top: 7vw;
+  width: 6vw;
+  height: 11vh;
+  background-color: rgba(26, 8, 107, 0.274);
+  margin-top: 70px;
+  border-radius: 10px;
+  -webkit-transition: 400ms ease all;
+  transition: 400ms ease all;
+}
+
+.trustmain .trustCont .contacts .ctc:hover {
+  background-color: rgba(12, 4, 44, 0.747);
+}
+
+.trustmain .trustCont .contacts .ctc .icon {
+  height: 5vh;
+  width: 3vw;
+}
+
+.trustmain .trustCont .contacts .ctc .facebook {
+  color: #070788;
+}
+
+.trustmain .trustCont .contacts .ctc .whatsapp {
+  color: #068d28;
+}
+
+.trustmain .trustCont .contacts .ctc .phone {
+  color: #d6d6d6;
+}
+
+.trustmain .trustCont .permalinks {
+  position: relative;
+  top: -4vh;
+  left: -7vw;
+}
+
+.trustmain .trustCont .permalinks ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60vh;
+  width: 30vw;
+}
+
+.trustmain .trustCont .permalinks ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15vh;
+  width: 7.5vw;
+  font-size: 14px;
+  font-weight: 200;
+  border-radius: 50%;
+}
+
+.trustmain .trustCont .permalinks ul li h3 {
+  color: aliceblue;
+  -webkit-transition: 150 ease;
+  transition: 150 ease;
+}
+
+.trustmain .trustCont .permalinks ul li h3:hover {
+  color: #666464;
+}
+
+.trustmain .trustCont .permalinks div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 4vw;
+  top: 45vh;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.trustmain .trustCont .permalinks div .email {
+  position: relative;
+  left: -11vw;
+  top: -5vh;
+  color: aliceblue;
+  margin-left: 50px;
+  line-height: 1.2em;
+  font-size: 13.2px;
+  -webkit-filter: brightness(0.4);
+          filter: brightness(0.4);
+}
+
+.trustmain .trustCont .permalinks p {
+  position: relative;
+  top: -13vh;
+  -webkit-transform: translateX(12vw);
+          transform: translateX(12vw);
+  color: aliceblue;
+}
+
+.trustmain .trustCont .testimonial {
+  position: relative;
+  top: 0vh;
+  left: 0vw;
+  width: 100vw;
+  height: 100vh;
+}
+
+.trustmain .trustCont .testimonial .test-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  left: 0vw;
+  top: 0vh;
+}
+
+.trustmain .trustCont .testimonial .test-article .testimonial1 {
+  background-color: purple;
+  top: 0vh;
+  left: 100vw;
+  position: relative;
+  width: 20vw;
+  height: 40vh;
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
+}
+
+.trustmain .trustCont .testimonial .test-article .testimonial1 .testimonialImg {
+  position: relative;
+  top: -50vh;
+  left: 6vw;
+  width: 30vw;
+  height: 40vh;
+  z-index: 50;
+}
+
+.trustmain .trustCont .testimonial .testifier {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.trustmain .trustCont .testimonial .testimonial-txt {
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.portform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.2rem;
+  width: 25vw;
+  height: 45vh;
+  position: relative;
+  top: -0vh;
+  left: 5vw;
+  -webkit-box-shadow: 0px 0px 4px #77757573;
+          box-shadow: 0px 0px 4px #77757573;
+  background-color: #e6e4e4;
+  background-color: #01092b;
+  border: 1px solid #0b3075;
+}
+
+.portform input,
+.portform textarea {
+  position: relative;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  top: 15px;
+  left: 0vw;
+  width: 20vw;
+  height: 2vh;
+  padding: 1.3rem;
+  border-radius: 0.5rem;
+  resize: none;
+}
+
+.portform .portcnct {
+  position: relative;
+  left: 0vw;
+  width: 20vw;
+  resize: none;
+  height: 15vh;
+  border: none;
+}
+
+.portform button {
+  width: 10vw;
+  height: 3.7rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #0b3075;
+  color: #ffffff;
+  position: relative;
+  left: 0vw;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 500ms ease all;
+  transition: 500ms ease all;
+}
+
+.portform button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  .trustmain {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    top: 80vh;
+    background-color: blue;
+  }
+  .trustmain .trustCont {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: 0vh;
+    width: 105vw;
+    min-height: 90vh;
+    background-color: #03000c;
+  }
+  .trustmain .trustCont .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: -15vh;
+    left: 0vw;
+    width: 20vw;
+    height: 60vh;
+  }
+  .trustmain .trustCont .contacts .ctc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    left: 31vw;
+    top: -6vw;
+    width: 18vw;
+    height: 8vh;
+    background-color: rgba(26, 8, 107, 0.274);
+    margin-left: 70px;
+    border-radius: 10px;
+    -webkit-transition: 400ms ease all;
+    transition: 400ms ease all;
+  }
+  .trustmain .trustCont .contacts .ctc:hover {
+    background-color: rgba(12, 4, 44, 0.747);
+  }
+  .trustmain .trustCont .contacts .ctc .icon {
+    height: 5vh;
+    width: 3vw;
+  }
+  .trustmain .trustCont .contacts .ctc .facebook {
+    color: #070788;
+  }
+  .trustmain .trustCont .contacts .ctc .whatsapp {
+    color: #068d28;
+  }
+  .trustmain .trustCont .contacts .ctc .phone {
+    color: #d6d6d6;
+  }
+  .trustmain .trustCont .permalinks {
+    position: relative;
+    top: -4vh;
+    left: 0vw;
+  }
+  .trustmain .trustCont .permalinks ul {
+    position: relative;
+    top: -30vh;
+    display: block;
+    height: 60vh;
+    width: 30vw;
+  }
+  .trustmain .trustCont .permalinks ul li {
+    position: relative;
+    top: 10vh;
+    left: 35vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -90px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 15vh;
+    width: 7.5vw;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius: 50%;
+  }
+  .trustmain .trustCont .permalinks ul li h3 {
+    color: aliceblue;
+    -webkit-transition: 150 ease;
+    transition: 150 ease;
+  }
+  .trustmain .trustCont .permalinks ul li h3:hover {
+    color: #666464;
+  }
+  .trustmain .trustCont .permalinks div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    left: -3vw;
+    top: 15vh;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .trustmain .trustCont .permalinks div .email {
+    position: relative;
+    left: -2vw;
+    top: 50vh;
+    color: aliceblue;
+    margin-left: 25px;
+    line-height: 1.2em;
+    font-size: 12.2px;
+    -webkit-filter: brightness(0.4);
+            filter: brightness(0.4);
+  }
+  .trustmain .trustCont .permalinks p {
+    position: relative;
+    left: 15vw;
+    top: 10vh;
+    font-size: 14px;
+    -webkit-transform: translateX(12vw);
+            transform: translateX(12vw);
+    color: aliceblue;
+  }
+  .trustmain .trustCont .testimonial {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+  }
+  .trustmain .trustCont .testimonial .test-article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    left: 0vw;
+    top: 0vh;
+  }
+  .trustmain .trustCont .testimonial .test-article .testimonial1 {
+    background-color: purple;
+    top: 0vh;
+    left: 100vw;
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+    -webkit-transition: 1s ease all;
+    transition: 1s ease all;
+  }
+  .trustmain .trustCont .testimonial .test-article .testimonial1 .testimonialImg {
+    position: relative;
+    top: -50vh;
+    left: 6vw;
+    width: 30vw;
+    height: 40vh;
+    z-index: 50;
+  }
+  .trustmain .trustCont .testimonial .testifier {
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .trustmain .trustCont .testimonial .testimonial-txt {
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .portform {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1.2rem;
+    width: 90vw;
+    height: 45vh;
+    position: relative;
+    top: -55vh;
+    left: 5vw;
+    -webkit-box-shadow: 0px 0px 4px #77757573;
+            box-shadow: 0px 0px 4px #77757573;
+    background-color: #e6e4e4;
+    background-color: #01092b;
+    border: 1px solid #0b3075;
+  }
+  .portform input,
+  .portform textarea {
+    position: relative;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    top: 15px;
+    left: 0vw;
+    width: 80vw;
+    height: 2vh;
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+    resize: none;
+  }
+  .portform .portcnct {
+    position: relative;
+    left: 0vw;
+    width: 80vw;
+    resize: none;
+    height: 15vh;
+    border: none;
+  }
+  .portform button {
+    width: 30vw;
+    height: 3.7rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0b3075;
+    color: #ffffff;
+    position: relative;
+    left: 0vw;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: 500ms ease all;
+    transition: 500ms ease all;
+  }
+  .portform button:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .trustmain {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    top: 80vh;
+    background-color: blue;
+    z-index: 500;
+  }
+  .trustmain .trustCont {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: 0vh;
+    width: 105vw;
+    min-height: 90vh;
+    background-color: #03000c;
+  }
+  .trustmain .trustCont .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: -15vh;
+    left: 0vw;
+    width: 20vw;
+    height: 60vh;
+  }
+  .trustmain .trustCont .contacts .ctc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    left: 31vw;
+    top: -6vw;
+    width: 18vw;
+    height: 8vh;
+    background-color: rgba(26, 8, 107, 0.274);
+    margin-left: 70px;
+    border-radius: 10px;
+    -webkit-transition: 400ms ease all;
+    transition: 400ms ease all;
+  }
+  .trustmain .trustCont .contacts .ctc:hover {
+    background-color: rgba(12, 4, 44, 0.747);
+  }
+  .trustmain .trustCont .contacts .ctc .icon {
+    height: 5vh;
+    width: 3vw;
+  }
+  .trustmain .trustCont .contacts .ctc .facebook {
+    color: #070788;
+  }
+  .trustmain .trustCont .contacts .ctc .whatsapp {
+    color: #068d28;
+  }
+  .trustmain .trustCont .contacts .ctc .phone {
+    color: #d6d6d6;
+  }
+  .trustmain .trustCont .permalinks {
+    position: relative;
+    top: -4vh;
+    left: 0vw;
+  }
+  .trustmain .trustCont .permalinks ul {
+    position: relative;
+    top: -30vh;
+    display: block;
+    height: 60vh;
+    width: 30vw;
+  }
+  .trustmain .trustCont .permalinks ul li {
+    position: relative;
+    top: 10vh;
+    left: 35vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -90px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 15vh;
+    width: 7.5vw;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius: 50%;
+  }
+  .trustmain .trustCont .permalinks ul li h3 {
+    color: aliceblue;
+    -webkit-transition: 150 ease;
+    transition: 150 ease;
+  }
+  .trustmain .trustCont .permalinks ul li h3:hover {
+    color: #666464;
+  }
+  .trustmain .trustCont .permalinks div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    left: -3vw;
+    top: 15vh;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .trustmain .trustCont .permalinks div .email {
+    position: relative;
+    left: -2vw;
+    top: 50vh;
+    color: aliceblue;
+    margin-left: 25px;
+    line-height: 1.2em;
+    font-size: 12.2px;
+    -webkit-filter: brightness(0.4);
+            filter: brightness(0.4);
+  }
+  .trustmain .trustCont .permalinks p {
+    position: relative;
+    left: 15vw;
+    top: 10vh;
+    font-size: 14px;
+    -webkit-transform: translateX(12vw);
+            transform: translateX(12vw);
+    color: aliceblue;
+  }
+  .trustmain .trustCont .testimonial {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+  }
+  .trustmain .trustCont .testimonial .test-article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    left: 0vw;
+    top: 0vh;
+  }
+  .trustmain .trustCont .testimonial .test-article .testimonial1 {
+    background-color: purple;
+    top: 0vh;
+    left: 100vw;
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+    -webkit-transition: 1s ease all;
+    transition: 1s ease all;
+  }
+  .trustmain .trustCont .testimonial .test-article .testimonial1 .testimonialImg {
+    position: relative;
+    top: -50vh;
+    left: 6vw;
+    width: 30vw;
+    height: 40vh;
+    z-index: 50;
+  }
+  .trustmain .trustCont .testimonial .testifier {
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .trustmain .trustCont .testimonial .testimonial-txt {
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .portform {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1.2rem;
+    width: 90vw;
+    height: 45vh;
+    position: relative;
+    top: -55vh;
+    left: 5vw;
+    -webkit-box-shadow: 0px 0px 4px #77757573;
+            box-shadow: 0px 0px 4px #77757573;
+    background-color: #e6e4e4;
+    background-color: #01092b;
+    border: 1px solid #0b3075;
+  }
+  .portform input,
+  .portform textarea {
+    position: relative;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    top: 15px;
+    left: 0vw;
+    width: 80vw;
+    height: 2vh;
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+    resize: none;
+  }
+  .portform .portcnct {
+    position: relative;
+    left: 0vw;
+    width: 80vw;
+    resize: none;
+    height: 15vh;
+    border: none;
+  }
+  .portform button {
+    width: 30vw;
+    height: 3.7rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0b3075;
+    color: #ffffff;
+    position: relative;
+    left: 0vw;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: 500ms ease all;
+    transition: 500ms ease all;
+  }
+  .portform button:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .trustmain {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    top: 80vh;
+    background-color: blue;
+  }
+  .trustmain .trustCont {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: 0vh;
+    width: 105vw;
+    min-height: 90vh;
+    background-color: #03000c;
+  }
+  .trustmain .trustCont .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: -15vh;
+    left: 0vw;
+    width: 20vw;
+    height: 60vh;
+  }
+  .trustmain .trustCont .contacts .ctc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    left: 31vw;
+    top: -6vw;
+    width: 18vw;
+    height: 8vh;
+    background-color: rgba(26, 8, 107, 0.274);
+    margin-left: 70px;
+    border-radius: 10px;
+    -webkit-transition: 400ms ease all;
+    transition: 400ms ease all;
+  }
+  .trustmain .trustCont .contacts .ctc:hover {
+    background-color: rgba(12, 4, 44, 0.747);
+  }
+  .trustmain .trustCont .contacts .ctc .icon {
+    height: 5vh;
+    width: 3vw;
+  }
+  .trustmain .trustCont .contacts .ctc .facebook {
+    color: #070788;
+  }
+  .trustmain .trustCont .contacts .ctc .whatsapp {
+    color: #068d28;
+  }
+  .trustmain .trustCont .contacts .ctc .phone {
+    color: #d6d6d6;
+  }
+  .trustmain .trustCont .permalinks {
+    position: relative;
+    top: -4vh;
+    left: 0vw;
+  }
+  .trustmain .trustCont .permalinks ul {
+    position: relative;
+    top: -30vh;
+    display: block;
+    height: 60vh;
+    width: 30vw;
+  }
+  .trustmain .trustCont .permalinks ul li {
+    position: relative;
+    top: 10vh;
+    left: 35vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -90px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 15vh;
+    width: 7.5vw;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius: 50%;
+  }
+  .trustmain .trustCont .permalinks ul li h3 {
+    color: aliceblue;
+    -webkit-transition: 150 ease;
+    transition: 150 ease;
+  }
+  .trustmain .trustCont .permalinks ul li h3:hover {
+    color: #666464;
+  }
+  .trustmain .trustCont .permalinks div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    left: -3vw;
+    top: 15vh;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .trustmain .trustCont .permalinks div .email {
+    position: relative;
+    left: -2vw;
+    top: 50vh;
+    color: aliceblue;
+    margin-left: 25px;
+    line-height: 1.2em;
+    font-size: 12.2px;
+    -webkit-filter: brightness(0.4);
+            filter: brightness(0.4);
+  }
+  .trustmain .trustCont .permalinks p {
+    position: relative;
+    left: 15vw;
+    top: 10vh;
+    font-size: 14px;
+    -webkit-transform: translateX(12vw);
+            transform: translateX(12vw);
+    color: aliceblue;
+  }
+  .trustmain .trustCont .testimonial {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+  }
+  .trustmain .trustCont .testimonial .test-article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    left: 0vw;
+    top: 0vh;
+  }
+  .trustmain .trustCont .testimonial .test-article .testimonial1 {
+    background-color: purple;
+    top: 0vh;
+    left: 100vw;
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+    -webkit-transition: 1s ease all;
+    transition: 1s ease all;
+  }
+  .trustmain .trustCont .testimonial .test-article .testimonial1 .testimonialImg {
+    position: relative;
+    top: -50vh;
+    left: 6vw;
+    width: 30vw;
+    height: 40vh;
+    z-index: 50;
+  }
+  .trustmain .trustCont .testimonial .testifier {
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .trustmain .trustCont .testimonial .testimonial-txt {
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .portform {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1.2rem;
+    width: 90vw;
+    height: 45vh;
+    position: relative;
+    top: -55vh;
+    left: 5vw;
+    -webkit-box-shadow: 0px 0px 4px #77757573;
+            box-shadow: 0px 0px 4px #77757573;
+    background-color: #e6e4e4;
+    background-color: #01092b;
+    border: 1px solid #0b3075;
+  }
+  .portform input,
+  .portform textarea {
+    position: relative;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    top: 15px;
+    left: 0vw;
+    width: 80vw;
+    height: 2vh;
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+    resize: none;
+  }
+  .portform .portcnct {
+    position: relative;
+    left: 0vw;
+    width: 80vw;
+    resize: none;
+    height: 15vh;
+    border: none;
+  }
+  .portform button {
+    width: 30vw;
+    height: 3.7rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0b3075;
+    color: #ffffff;
+    position: relative;
+    left: 0vw;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: 500ms ease all;
+    transition: 500ms ease all;
+  }
+  .portform button:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+/*# sourceMappingURL=trust.css.map */

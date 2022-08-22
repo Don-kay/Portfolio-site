@@ -1,0 +1,277 @@
+.sub-2:hover .icons {
+  width: 8vw;
+  height: 3vh;
+  color: rgba(231, 231, 231, 0.945);
+}
+.sub-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 43%;
+  bottom: -16vh;
+  width: 15vw;
+  height: 10vh;
+  background-color: rgba(73, 55, 192, 0.397);
+  transition: 900ms ease all;
+  border-radius: 2em;
+  backdrop-filter: blur(7px);
+  box-shadow: 0px 0px 2px rgb(65, 62, 62);
+  z-index: 1500;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: -25px;
+
+    li {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+      height: 7vh;
+      width: 3.5vw;
+      background-color: rgba(241, 10, 10, 0.281);
+      backdrop-filter: blur(123px);
+      // filter: opacity(0.6);
+      border-radius: 50%;
+      transform: translateY(0vh);
+      cursor: pointer;
+      transition: 500ms ease-in-out all;
+
+      &:hover {
+        transform: translateY(-0.7vh);
+        background-color: rgba(218, 12, 12, 0.877);
+      }
+
+      .icons {
+        width: 8vw;
+        height: 3vh;
+        color: rgba(231, 231, 231, 0.575);
+        transition: 300ms ease-in all;
+      }
+    }
+  }
+
+  .suber {
+    font-size: 50px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+  }
+}
+.sub-anim {
+  transform: translateY(-21vh);
+}
+
+@media screen and (max-width: 600px) {
+  .sub-2:hover .icons {
+    width: 8vw;
+    height: 3vh;
+    color: rgba(231, 231, 231, 0.945);
+  }
+  .sub-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 43%;
+    bottom: -16vh;
+    width: 45vw;
+    height: 10vh;
+    background-color: rgba(73, 55, 192, 0.397);
+    transition: 900ms ease all;
+    border-radius: 2em;
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 2px rgb(65, 62, 62);
+    z-index: 1500;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      left: -25px;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        height: 7vh;
+        width: 11.5vw;
+        background-color: rgba(241, 10, 10, 0.281);
+        backdrop-filter: blur(123px);
+        // filter: opacity(0.6);
+        border-radius: 50%;
+        transform: translateY(0vh);
+        cursor: pointer;
+        transition: 500ms ease-in-out all;
+
+        &:hover {
+          transform: translateY(-0.7vh);
+          background-color: rgba(218, 12, 12, 0.877);
+        }
+
+        .icons {
+          width: 8vw;
+          height: 3vh;
+          position: relative;
+          left: 1.8vw;
+          color: rgba(231, 231, 231, 0.575);
+          transition: 300ms ease-in all;
+        }
+      }
+    }
+
+    .suber {
+      font-size: 50px;
+      text-align: center;
+      background-color: transparent;
+      color: white;
+    }
+  }
+  .sub-anim {
+    transform: translateY(-21vh);
+  }
+}
+@media screen and (max-width: 400px) {
+  .sub-2:hover .icons {
+    width: 8vw;
+    height: 3vh;
+    color: rgba(231, 231, 231, 0.945);
+  }
+  .sub-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 27%;
+    bottom: -16vh;
+    width: 45vw;
+    height: 10vh;
+    background-color: rgba(73, 55, 192, 0.397);
+    transition: 900ms ease all;
+    border-radius: 2em;
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 2px rgb(65, 62, 62);
+    z-index: 1500;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      left: -25px;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        height: 7vh;
+        width: 11.5vw;
+        background-color: rgba(241, 10, 10, 0.281);
+        backdrop-filter: blur(123px);
+        // filter: opacity(0.6);
+        border-radius: 50%;
+        transform: translateY(0vh);
+        cursor: pointer;
+        transition: 500ms ease-in-out all;
+
+        &:hover {
+          transform: translateY(-0.7vh);
+          background-color: rgba(218, 12, 12, 0.877);
+        }
+
+        .icons {
+          width: 8vw;
+          height: 3vh;
+          position: relative;
+          left: 1.8vw;
+          color: rgba(231, 231, 231, 0.575);
+          transition: 300ms ease-in all;
+        }
+      }
+    }
+
+    .suber {
+      font-size: 50px;
+      text-align: center;
+      background-color: transparent;
+      color: white;
+    }
+  }
+  .sub-anim {
+    transform: translateY(-21vh);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .sub-2:hover .icons {
+    width: 8vw;
+    height: 3vh;
+    color: rgba(231, 231, 231, 0.945);
+  }
+  .sub-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 35%;
+    bottom: -16vh;
+    width: 30vw;
+    height: 10vh;
+    background-color: rgba(73, 55, 192, 0.397);
+    transition: 900ms ease all;
+    border-radius: 2em;
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 2px rgb(65, 62, 62);
+    z-index: 1500;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      left: -25px;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        height: 7vh;
+        width: 7.5vw;
+        background-color: rgba(241, 10, 10, 0.281);
+        backdrop-filter: blur(123px);
+        // filter: opacity(0.6);
+        border-radius: 50%;
+        transform: translateY(0vh);
+        cursor: pointer;
+        transition: 500ms ease-in-out all;
+
+        &:hover {
+          transform: translateY(-0.7vh);
+          background-color: rgba(218, 12, 12, 0.877);
+        }
+
+        .icons {
+          width: 8vw;
+          height: 3vh;
+          position: relative;
+          left: 0vw;
+          color: rgba(231, 231, 231, 0.575);
+          transition: 300ms ease-in all;
+        }
+      }
+    }
+
+    .suber {
+      font-size: 50px;
+      text-align: center;
+      background-color: transparent;
+      color: white;
+    }
+  }
+  .sub-anim {
+    transform: translateY(-21vh);
+  }
+}

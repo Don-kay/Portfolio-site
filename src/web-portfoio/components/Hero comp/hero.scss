@@ -1,0 +1,466 @@
+.mainHero {
+  display: block;
+  position: absolute;
+  // background-color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+
+  .heroItems {
+    display: flex;
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    justify-content: center;
+    height: 100vh;
+    // z-index: -3;
+    align-items: center;
+    // background-color: rgb(0, 17, 255);
+
+    .textCont {
+      position: fixed;
+      top: 35vh;
+      left: 27vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0px;
+      z-index: 10;
+
+      .textEl {
+        font-size: 185px;
+        color: rgb(216, 212, 212);
+        text-shadow: 11px 0px 10px rgb(163, 161, 161);
+        -webkit-text-stroke: 2px rgba(204, 197, 197, 0.555);
+
+        // border: 1px solid rgb(37, 37, 37);
+      }
+    }
+    .authorCont {
+      position: fixed;
+      top: 14vh;
+      left: 12vw;
+      width: 300vw;
+      height: 35vw;
+      border-radius: 0px 0px 8em 8em;
+
+      // background-color: greenyellow;
+      overflow: hidden;
+
+      .hero {
+        position: relative;
+        top: -1vh;
+        left: -7vw;
+        width: 50vw;
+        height: 120vh;
+        filter: opacity(0.03);
+        z-index: -5;
+      }
+    }
+    .el-1 {
+      position: relative;
+      top: 14vh;
+      left: -50vw;
+      height: 80vh;
+      width: 130vw;
+      border: none;
+    }
+    .heroEl {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 40vh;
+      left: 55vw;
+      // background-color: rgb(30, 17, 141);
+      width: 30vw;
+      height: 40vh;
+
+      .heroText {
+        display: block;
+        position: relative;
+        top: -5vh;
+        left: -6vw;
+        width: 20vw;
+        height: 50vh;
+
+        // background-color: rgb(70, 70, 70);
+
+        .intro {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 30vw;
+          top: 16vh;
+          left: 0vw;
+          height: 30vh;
+          // background-image: linear-gradient(
+          //   rgba(0, 0, 0, 0) 5vh,
+          //   #0b0b0e 38vh,
+          //   rgb(31, 1, 31)
+          // );
+          // border-radius: 8em 8em 0px 0px;
+
+          // outline: 1px solid red;
+          .name {
+            text-align: justify;
+            position: relative;
+            top: 0vh;
+            left: 1vw;
+            padding-left: 3vw;
+            padding-top: 2.5vh;
+            height: 7.5vh;
+            width: 40vw;
+            color: rgb(255, 255, 255);
+            // background-color: black;
+            backdrop-filter: blur(0.4);
+            mix-blend-mode: difference;
+
+            &::after {
+              content: "";
+              position: absolute;
+              top: 0vh;
+              left: 8.4vw;
+              width: 11vw;
+              height: 7.6vh;
+              background-color: rgb(0, 0, 0);
+              filter: opacity(0.8);
+              z-index: -2;
+            }
+          }
+          .small {
+            position: relative;
+            top: -9vh;
+            left: 8vw;
+            width: 9vw;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: -0.4vh;
+              left: 0vh;
+              width: 1.6vw;
+              height: 2px;
+              background-color: black;
+            }
+          }
+          .aka {
+            position: relative;
+            bottom: -7vh;
+            left: -5.5vw;
+            right: 6.5vw;
+            font-size: 15px;
+            font-weight: 600;
+            width: 15vw;
+            color: rgb(44, 43, 43);
+          }
+        }
+        .mybtn {
+          display: flex;
+          justify-content: space-around;
+          position: relative;
+          top: 8vh;
+          left: 12vh;
+          // outline: 1px solid red;
+          width: 20vw;
+          height: 5vh;
+          z-index: 900;
+
+          .mybtn1 {
+            position: relative;
+            top: 2vh;
+            width: 9vw;
+            height: 2vw;
+            border-bottom: 2px solid rgb(255, 255, 255);
+            border: none;
+            font-size: 11px;
+            background-color: transparent;
+            cursor: pointer;
+
+            &:hover {
+              color: #555353;
+            }
+
+            // background-image: linear-gradient(blue, red);
+            &::after {
+              content: "";
+              position: absolute;
+              left: 3.8vw;
+              bottom: 0.8vh;
+              width: 3vh;
+              height: 1.5px;
+              background-color: black;
+            }
+            a {
+              color: black;
+            }
+          }
+        }
+        .text {
+          position: relative;
+          text-align: center;
+          top: 8vh;
+          left: 6.3vw;
+          text-align: center;
+          line-height: 1.2em;
+          width: 20vw;
+        }
+      }
+    }
+    .h-skills {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 35vw;
+      height: 45vh;
+      position: fixed;
+      top: 50vh;
+      left: 10vw;
+      bottom: 55vh;
+      background-color: rgb(153, 145, 145);
+      overflow: hidden;
+
+      .heroskills {
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        width: 29vw;
+        height: 55vh;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainHero {
+    display: block;
+    position: absolute;
+    // background-color: rgb(255, 255, 255);
+    width: 80vw;
+    height: 100vh;
+    z-index: -5;
+
+    .heroItems {
+      display: flex;
+      position: relative;
+      top: 45vh;
+      left: 6vw;
+      justify-content: center;
+      height: 10vh;
+      width: 100vw;
+      // z-index: -3;
+      align-items: center;
+      // background-color: rgb(0, 17, 255);
+
+      .textCont {
+        position: fixed;
+        top: 20vh;
+        left: 0vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px;
+
+        z-index: 10;
+
+        .textEl {
+          font-size: 45px;
+          color: rgb(211, 200, 200);
+          text-shadow: 11px 0px 10px rgb(163, 161, 161);
+          -webkit-text-stroke: 2px rgba(204, 197, 197, 0.555);
+
+          // border: 1px solid rgb(37, 37, 37);
+        }
+      }
+      .authorCont {
+        position: fixed;
+        top: 17vh;
+        left: 7vw;
+        width: 60vw;
+        height: 55vw;
+        border-radius: 0px 0px 8em 8em;
+
+        // background-color: greenyellow;
+        overflow: hidden;
+
+        .hero {
+          position: relative;
+          top: -1vh;
+          left: -10vw;
+          width: 80vw;
+          height: 40vh;
+          filter: opacity(0.03);
+          z-index: -5;
+        }
+      }
+      .el-1 {
+        position: relative;
+        top: 14vh;
+        left: -50vw;
+        height: 80vh;
+        width: 130vw;
+        border: none;
+      }
+      .heroEl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 45.6vh;
+        left: 0vw;
+        // background-color: red;
+        width: 100vw;
+        height: 10vh;
+
+        .heroText {
+          display: block;
+          position: relative;
+          top: 25vh;
+          left: -6vw;
+          width: 20vw;
+          height: 50vh;
+
+          // background-color: rgb(70, 70, 70);
+
+          .intro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 125vw;
+            top: 25vh;
+            left: -35vw;
+            height: 10vh;
+            background-color: rgb(206, 201, 201);
+            // border-radius: 8em 8em 0px 0px;
+
+            // outline: 1px solid red;
+            .name {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: justify;
+              position: relative;
+              line-height: 2vh;
+              top: 0vh;
+              left: -3vw;
+              padding-left: 3vw;
+              padding-top: 2.5vh;
+              font-size: 15px;
+              height: 6.5vh;
+              width: 75vw;
+              color: rgb(255, 255, 255);
+              // background-color: black;
+              backdrop-filter: blur(0.4);
+
+              &::after {
+                content: "";
+                position: absolute;
+                top: 0vh;
+                left: 8.4vw;
+                width: 11vw;
+                height: 7.6vh;
+                background-color: transparent;
+                filter: opacity(0.8);
+                z-index: -2;
+              }
+            }
+            .small {
+              position: relative;
+              top: -1.5vh;
+              left: 25vw;
+              width: 32vw;
+              height: 16px;
+              font-size: 11px;
+
+              &::after {
+                content: "";
+                position: absolute;
+                bottom: -0.7vh;
+                left: 0vh;
+                width: 5.6vw;
+                height: 1px;
+                background-color: black;
+              }
+            }
+            .aka {
+              position: relative;
+              top: 5vh;
+              left: -30vw;
+              right: 6.5vw;
+              font-size: 10px;
+              font-weight: 600;
+              width: 65vw;
+              height: 55px;
+              color: rgb(44, 43, 43);
+            }
+          }
+          .mybtn {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 26vh;
+            left: 12vh;
+            // outline: 1px solid red;
+            width: 20vw;
+            height: 5vh;
+            z-index: 900;
+
+            .mybtn1 {
+              position: relative;
+              top: 0vh;
+              left: -26vw;
+              width: 40vw;
+              height: 6vw;
+              border: none;
+              font-size: 9px;
+              background-color: rgb(145, 141, 141);
+              cursor: pointer;
+
+              &::after {
+                content: "";
+                background-color: transparent;
+              }
+
+              &:hover {
+                color: #555353;
+              }
+
+              // background-image: linear-gradient(blue, red);
+            }
+          }
+          .text {
+            position: relative;
+            text-align: center;
+            top: 8vh;
+            left: 6.3vw;
+            text-align: center;
+            line-height: 1.2em;
+            width: 20vw;
+          }
+        }
+      }
+      .h-skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 116vw;
+        height: 50vh;
+        position: fixed;
+        top: 25vh;
+        left: 2.2vw;
+        bottom: 55vh;
+        background-color: rgb(153, 145, 145);
+        overflow: hidden;
+
+        .heroskills {
+          position: relative;
+          top: 3vh;
+          left: 0vw;
+          width: 100vw;
+          height: 55vh;
+        }
+      }
+    }
+  }
+}

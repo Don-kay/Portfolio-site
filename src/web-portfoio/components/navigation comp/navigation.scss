@@ -1,0 +1,507 @@
+.navar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 1500;
+  // background-color: blue;
+
+  .me {
+    position: absolute;
+    top: 60vh;
+    width: 40vw;
+    height: 40vh;
+  }
+
+  .navig {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    top: 3vh;
+    left: 0vw;
+    transition: 500ms ease all;
+
+    // background-color: rgb(0, 0, 0);
+
+    .nav-container {
+      position: relative;
+      left: 10vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 1000vw;
+      height: 10vh;
+
+      .logo {
+        width: 7rem;
+        height: 8vh;
+        position: relative;
+        left: -15vw;
+      }
+
+      .my-btn {
+        opacity: 1;
+        display: inline;
+        position: relative;
+        left: 16vw;
+        width: 4.4vw;
+        height: 4vh;
+        border: none;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+      }
+    }
+    .navlinks {
+      display: inline-flex; //for spreading items horizontally
+      opacity: 1;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(40vw);
+      width: 300vw;
+      height: 10vh;
+      position: relative;
+      left: -70vw;
+      // transition: 8s ease all;
+
+      .navlink-btn {
+        position: relative;
+        top: 0px;
+        border: none;
+        font-size: 14px;
+        font-weight: 600;
+        width: 5vw;
+        height: 3vh;
+        border-radius: 3px;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    }
+  }
+  .navig-2 {
+    transform: translateY(-15vh);
+  }
+}
+
+.Toggle-btn {
+  display: none;
+  text-align: center;
+  width: 4rem;
+  height: 4vh;
+  position: relative;
+  // right: -15vw;
+  padding-top: 4px;
+  border-radius: 4px;
+  border: none;
+  // background-color: red;
+  box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+}
+
+// .links {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+//   transform: translateX(30vw);
+//   width: 17rem;
+//   position: relative;
+//   gap: 95px;
+//   font-size: 12px;
+//   // left: -22rem;
+// }
+
+// .navy {
+//   position: relative;
+//   top: -50px;
+//   border: none;
+//   font-size: 14px;
+//   font-weight: 600;
+//   width: 5vw;
+//   height: 3vh;
+//   border-radius: 3px;
+//   background-color: transparent;
+// }
+
+@media screen and (max-width: 800px) {
+  .Toggle-btn {
+    display: block;
+    text-align: center;
+    width: 4rem;
+    height: 4vh;
+    position: relative;
+    right: -15vw;
+    padding-top: 4px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+  }
+  .my-btn {
+    display: none;
+    position: relative;
+    right: -13vw;
+    width: 4.4vw;
+    height: 4vh;
+    border: none;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Toggle-btn {
+    display: block;
+    text-align: center;
+    width: 4rem;
+    height: 4vh;
+    position: relative;
+    right: -15vw;
+    padding-top: 4px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+  }
+  .my-btn {
+    opacity: 1;
+    display: none;
+    position: relative;
+    right: -13vw;
+    width: 4.4vw;
+    height: 4vh;
+    border: none;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Toggle-btn {
+    display: block;
+    text-align: center;
+    width: 4rem;
+    height: 4vh;
+    position: relative;
+    right: -15vw;
+    padding-top: 4px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+  }
+  .my-btn {
+    opacity: 0;
+    display: none;
+    position: relative;
+    right: -13vw;
+    width: 4.4vw;
+    height: 4vh;
+    border: none;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+  }
+
+  .navar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 1500;
+    // background-color: blue;
+
+    .me {
+      position: absolute;
+      top: 60vh;
+      width: 40vw;
+      height: 40vh;
+    }
+
+    .navig {
+      position: fixed;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      top: 3vh;
+      left: 0vw;
+      transition: 500ms ease all;
+
+      // background-color: rgb(0, 0, 0);
+
+      .nav-container {
+        position: relative;
+        left: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 1000vw;
+        height: 10vh;
+
+        .logo {
+          width: 7rem;
+          height: 8vh;
+          position: relative;
+          left: -15vw;
+        }
+
+        .my-btn {
+          opacity: 0;
+          display: inline;
+          position: relative;
+          left: 16vw;
+          width: 4.4vw;
+          height: 4vh;
+          border: none;
+          border-radius: 4px;
+          border: none;
+          box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+        }
+      }
+      .navlinks {
+        display: inline-flex; //for spreading items horizontally
+        opacity: 0;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(40vw);
+        width: 300vw;
+        height: 10vh;
+        position: relative;
+        left: -70vw;
+        // transition: 8s ease all;
+
+        .navlink-btn {
+          position: relative;
+          top: 0px;
+          border: none;
+          font-size: 14px;
+          font-weight: 600;
+          width: 5vw;
+          height: 3vh;
+          border-radius: 3px;
+          background-color: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+    .navig-2 {
+      transform: translateY(-15vh);
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .Toggle-btn {
+    display: block;
+    text-align: center;
+    width: 4rem;
+    height: 4vh;
+    position: relative;
+    right: -15vw;
+    padding-top: 4px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+  }
+  .my-btn {
+    opacity: 0;
+    display: none;
+    position: relative;
+    right: -13vw;
+    width: 4.4vw;
+    height: 4vh;
+    border: none;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+  }
+
+  .navar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 1500;
+    // background-color: blue;
+
+    .me {
+      position: absolute;
+      top: 60vh;
+      width: 40vw;
+      height: 40vh;
+    }
+
+    .navig {
+      position: fixed;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      top: 3vh;
+      left: 0vw;
+      transition: 500ms ease all;
+
+      // background-color: rgb(0, 0, 0);
+
+      .nav-container {
+        position: relative;
+        left: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 1000vw;
+        height: 10vh;
+
+        .logo {
+          width: 7rem;
+          height: 8vh;
+          position: relative;
+          left: -15vw;
+        }
+
+        .my-btn {
+          opacity: 0;
+          display: inline;
+          position: relative;
+          left: 16vw;
+          width: 4.4vw;
+          height: 4vh;
+          border: none;
+          border-radius: 4px;
+          border: none;
+          box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+        }
+      }
+      .navlinks {
+        display: inline-flex; //for spreading items horizontally
+        opacity: 0;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(40vw);
+        width: 300vw;
+        height: 10vh;
+        position: relative;
+        left: -70vw;
+        // transition: 8s ease all;
+
+        .navlink-btn {
+          position: relative;
+          top: 0px;
+          border: none;
+          font-size: 14px;
+          font-weight: 600;
+          width: 5vw;
+          height: 3vh;
+          border-radius: 3px;
+          background-color: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+    .navig-2 {
+      transform: translateY(-15vh);
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Toggle-btn {
+    display: block;
+    text-align: center;
+    width: 4rem;
+    height: 4vh;
+    position: relative;
+    right: -15vw;
+    padding-top: 4px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+  }
+  .my-btn {
+    display: none;
+    position: relative;
+    right: -13vw;
+    width: 4.4vw;
+    height: 4vh;
+    border: none;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+  }
+
+  .navar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 1500;
+    // background-color: blue;
+
+    .me {
+      position: absolute;
+      top: 60vh;
+      width: 40vw;
+      height: 40vh;
+    }
+
+    .navig {
+      position: fixed;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      top: 3vh;
+      left: 0vw;
+      transition: 500ms ease all;
+
+      // background-color: rgb(0, 0, 0);
+
+      .nav-container {
+        position: relative;
+        left: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 1000vw;
+        height: 10vh;
+
+        .logo {
+          width: 7rem;
+          height: 8vh;
+          position: relative;
+          left: -15vw;
+        }
+
+        .my-btn {
+          opacity: 0;
+          display: inline;
+          position: relative;
+          left: 27vw;
+          width: 7.4vw;
+          height: 4vh;
+          border: none;
+          border-radius: 4px;
+          border: none;
+          box-shadow: 0px 0px 8px rgba(118, 136, 118, 0.747);
+        }
+      }
+      .navlinks {
+        display: inline-flex; //for spreading items horizontally
+        opacity: 0;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(40vw);
+        width: 300vw;
+        height: 10vh;
+        position: relative;
+        left: -70vw;
+        // transition: 8s ease all;
+
+        .navlink-btn {
+          position: relative;
+          top: 0px;
+          border: none;
+          font-size: 14px;
+          font-weight: 600;
+          width: 5vw;
+          height: 3vh;
+          border-radius: 3px;
+          background-color: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+    .navig-2 {
+      transform: translateY(-15vh);
+    }
+  }
+}

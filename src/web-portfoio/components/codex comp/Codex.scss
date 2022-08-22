@@ -1,0 +1,15 @@
+@import "../../root-css/main.scss";
+
+.mainBg {
+  position: absolute;
+  min-height: 60vh;
+  width: 100vw;
+  z-index: 29;
+
+  .footer {
+    position: relative;
+    top: 420vh;
+    min-height: calc(110vh - 390px);
+    z-index: 0;
+  }
+}

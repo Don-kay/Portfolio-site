@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACN,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,EAAE;CAQZ;;AAZD,AAME,OANK,CAML,OAAO,CAAC;EACN,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,KAAK;EACV,UAAU,EAAE,mBAAmB;EAC/B,OAAO,EAAE,CAAC;CACX",
+    "sources": [
+        "Codex.scss",
+        "../../root-css/main.scss"
+    ],
+    "names": [],
+    "file": "Codex.css"
+}

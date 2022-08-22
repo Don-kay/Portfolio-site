@@ -1,0 +1,503 @@
+.mainHero {
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+}
+
+.mainHero .heroItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 0vh;
+  left: 0vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainHero .heroItems .textCont {
+  position: fixed;
+  top: 35vh;
+  left: 27vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  z-index: 10;
+}
+
+.mainHero .heroItems .textCont .textEl {
+  font-size: 185px;
+  color: #d8d4d4;
+  text-shadow: 11px 0px 10px #a3a1a1;
+  -webkit-text-stroke: 2px rgba(204, 197, 197, 0.555);
+}
+
+.mainHero .heroItems .authorCont {
+  position: fixed;
+  top: 14vh;
+  left: 12vw;
+  width: 300vw;
+  height: 35vw;
+  border-radius: 0px 0px 8em 8em;
+  overflow: hidden;
+}
+
+.mainHero .heroItems .authorCont .hero {
+  position: relative;
+  top: -1vh;
+  left: -7vw;
+  width: 50vw;
+  height: 120vh;
+  -webkit-filter: opacity(0.03);
+          filter: opacity(0.03);
+  z-index: -5;
+}
+
+.mainHero .heroItems .el-1 {
+  position: relative;
+  top: 14vh;
+  left: -50vw;
+  height: 80vh;
+  width: 130vw;
+  border: none;
+}
+
+.mainHero .heroItems .heroEl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 40vh;
+  left: 55vw;
+  width: 30vw;
+  height: 40vh;
+}
+
+.mainHero .heroItems .heroEl .heroText {
+  display: block;
+  position: relative;
+  top: -5vh;
+  left: -6vw;
+  width: 20vw;
+  height: 50vh;
+}
+
+.mainHero .heroItems .heroEl .heroText .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 30vw;
+  top: 16vh;
+  left: 0vw;
+  height: 30vh;
+}
+
+.mainHero .heroItems .heroEl .heroText .intro .name {
+  text-align: justify;
+  position: relative;
+  top: 0vh;
+  left: 1vw;
+  padding-left: 3vw;
+  padding-top: 2.5vh;
+  height: 7.5vh;
+  width: 40vw;
+  color: white;
+  -webkit-backdrop-filter: blur(0.4);
+          backdrop-filter: blur(0.4);
+  mix-blend-mode: difference;
+}
+
+.mainHero .heroItems .heroEl .heroText .intro .name::after {
+  content: "";
+  position: absolute;
+  top: 0vh;
+  left: 8.4vw;
+  width: 11vw;
+  height: 7.6vh;
+  background-color: black;
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+  z-index: -2;
+}
+
+.mainHero .heroItems .heroEl .heroText .intro .small {
+  position: relative;
+  top: -9vh;
+  left: 8vw;
+  width: 9vw;
+}
+
+.mainHero .heroItems .heroEl .heroText .intro .small::after {
+  content: "";
+  position: absolute;
+  bottom: -0.4vh;
+  left: 0vh;
+  width: 1.6vw;
+  height: 2px;
+  background-color: black;
+}
+
+.mainHero .heroItems .heroEl .heroText .intro .aka {
+  position: relative;
+  bottom: -7vh;
+  left: -5.5vw;
+  right: 6.5vw;
+  font-size: 15px;
+  font-weight: 600;
+  width: 15vw;
+  color: #2c2b2b;
+}
+
+.mainHero .heroItems .heroEl .heroText .mybtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  top: 8vh;
+  left: 12vh;
+  width: 20vw;
+  height: 5vh;
+  z-index: 900;
+}
+
+.mainHero .heroItems .heroEl .heroText .mybtn .mybtn1 {
+  position: relative;
+  top: 2vh;
+  width: 9vw;
+  height: 2vw;
+  border-bottom: 2px solid white;
+  border: none;
+  font-size: 11px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.mainHero .heroItems .heroEl .heroText .mybtn .mybtn1:hover {
+  color: #555353;
+}
+
+.mainHero .heroItems .heroEl .heroText .mybtn .mybtn1::after {
+  content: "";
+  position: absolute;
+  left: 3.8vw;
+  bottom: 0.8vh;
+  width: 3vh;
+  height: 1.5px;
+  background-color: black;
+}
+
+.mainHero .heroItems .heroEl .heroText .mybtn .mybtn1 a {
+  color: black;
+}
+
+.mainHero .heroItems .heroEl .heroText .text {
+  position: relative;
+  text-align: center;
+  top: 8vh;
+  left: 6.3vw;
+  text-align: center;
+  line-height: 1.2em;
+  width: 20vw;
+}
+
+.mainHero .heroItems .h-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35vw;
+  height: 45vh;
+  position: fixed;
+  top: 50vh;
+  left: 10vw;
+  bottom: 55vh;
+  background-color: #999191;
+  overflow: hidden;
+}
+
+.mainHero .heroItems .h-skills .heroskills {
+  position: relative;
+  top: 0vh;
+  left: 0vw;
+  width: 29vw;
+  height: 55vh;
+}
+
+@media screen and (max-width: 600px) {
+  .mainHero {
+    display: block;
+    position: absolute;
+    width: 80vw;
+    height: 100vh;
+    z-index: -5;
+  }
+  .mainHero .heroItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 45vh;
+    left: 6vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainHero .heroItems .textCont {
+    position: fixed;
+    top: 20vh;
+    left: 0vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0px;
+    z-index: 10;
+  }
+  .mainHero .heroItems .textCont .textEl {
+    font-size: 45px;
+    color: #d3c8c8;
+    text-shadow: 11px 0px 10px #a3a1a1;
+    -webkit-text-stroke: 2px rgba(204, 197, 197, 0.555);
+  }
+  .mainHero .heroItems .authorCont {
+    position: fixed;
+    top: 17vh;
+    left: 7vw;
+    width: 60vw;
+    height: 55vw;
+    border-radius: 0px 0px 8em 8em;
+    overflow: hidden;
+  }
+  .mainHero .heroItems .authorCont .hero {
+    position: relative;
+    top: -1vh;
+    left: -10vw;
+    width: 80vw;
+    height: 40vh;
+    -webkit-filter: opacity(0.03);
+            filter: opacity(0.03);
+    z-index: -5;
+  }
+  .mainHero .heroItems .el-1 {
+    position: relative;
+    top: 14vh;
+    left: -50vw;
+    height: 80vh;
+    width: 130vw;
+    border: none;
+  }
+  .mainHero .heroItems .heroEl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    top: 45.6vh;
+    left: 0vw;
+    width: 100vw;
+    height: 10vh;
+  }
+  .mainHero .heroItems .heroEl .heroText {
+    display: block;
+    position: relative;
+    top: 25vh;
+    left: -6vw;
+    width: 20vw;
+    height: 50vh;
+  }
+  .mainHero .heroItems .heroEl .heroText .intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    width: 125vw;
+    top: 25vh;
+    left: -35vw;
+    height: 10vh;
+    background-color: #cec9c9;
+  }
+  .mainHero .heroItems .heroEl .heroText .intro .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: justify;
+    position: relative;
+    line-height: 2vh;
+    top: 0vh;
+    left: -3vw;
+    padding-left: 3vw;
+    padding-top: 2.5vh;
+    font-size: 15px;
+    height: 6.5vh;
+    width: 75vw;
+    color: white;
+    -webkit-backdrop-filter: blur(0.4);
+            backdrop-filter: blur(0.4);
+  }
+  .mainHero .heroItems .heroEl .heroText .intro .name::after {
+    content: "";
+    position: absolute;
+    top: 0vh;
+    left: 8.4vw;
+    width: 11vw;
+    height: 7.6vh;
+    background-color: transparent;
+    -webkit-filter: opacity(0.8);
+            filter: opacity(0.8);
+    z-index: -2;
+  }
+  .mainHero .heroItems .heroEl .heroText .intro .small {
+    position: relative;
+    top: -1.5vh;
+    left: 25vw;
+    width: 32vw;
+    height: 16px;
+    font-size: 11px;
+  }
+  .mainHero .heroItems .heroEl .heroText .intro .small::after {
+    content: "";
+    position: absolute;
+    bottom: -0.7vh;
+    left: 0vh;
+    width: 5.6vw;
+    height: 1px;
+    background-color: black;
+  }
+  .mainHero .heroItems .heroEl .heroText .intro .aka {
+    position: relative;
+    top: 5vh;
+    left: -30vw;
+    right: 6.5vw;
+    font-size: 10px;
+    font-weight: 600;
+    width: 65vw;
+    height: 55px;
+    color: #2c2b2b;
+  }
+  .mainHero .heroItems .heroEl .heroText .mybtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: relative;
+    top: 26vh;
+    left: 12vh;
+    width: 20vw;
+    height: 5vh;
+    z-index: 900;
+  }
+  .mainHero .heroItems .heroEl .heroText .mybtn .mybtn1 {
+    position: relative;
+    top: 0vh;
+    left: -26vw;
+    width: 40vw;
+    height: 6vw;
+    border: none;
+    font-size: 9px;
+    background-color: #918d8d;
+    cursor: pointer;
+  }
+  .mainHero .heroItems .heroEl .heroText .mybtn .mybtn1::after {
+    content: "";
+    background-color: transparent;
+  }
+  .mainHero .heroItems .heroEl .heroText .mybtn .mybtn1:hover {
+    color: #555353;
+  }
+  .mainHero .heroItems .heroEl .heroText .text {
+    position: relative;
+    text-align: center;
+    top: 8vh;
+    left: 6.3vw;
+    text-align: center;
+    line-height: 1.2em;
+    width: 20vw;
+  }
+  .mainHero .heroItems .h-skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 116vw;
+    height: 50vh;
+    position: fixed;
+    top: 25vh;
+    left: 2.2vw;
+    bottom: 55vh;
+    background-color: #999191;
+    overflow: hidden;
+  }
+  .mainHero .heroItems .h-skills .heroskills {
+    position: relative;
+    top: 3vh;
+    left: 0vw;
+    width: 100vw;
+    height: 55vh;
+  }
+}
+/*# sourceMappingURL=hero.css.map */

@@ -1,0 +1,957 @@
+@import "../../root-css/main.scss";
+
+.trustmain {
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+  top: 0vh;
+  background-color: blue;
+
+  .trustCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0vh;
+    width: 100vw;
+    min-height: 90vh;
+    background-color: rgb(3, 0, 12);
+
+    .contacts {
+      display: block;
+      position: relative;
+      top: -15vh;
+      left: -10vw;
+      width: 20vw;
+      height: 60vh;
+
+      .ctc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 6vw;
+        top: 7vw;
+        width: 6vw;
+        height: 11vh;
+        background-color: rgba(26, 8, 107, 0.274);
+        margin-top: 70px;
+        border-radius: 10px;
+        transition: 400ms ease all;
+
+        &:hover {
+          background-color: rgba(12, 4, 44, 0.747);
+        }
+
+        .icon {
+          height: 5vh;
+          width: 3vw;
+        }
+        .facebook {
+          color: rgb(7, 7, 136);
+        }
+        .whatsapp {
+          color: rgb(6, 141, 40);
+        }
+        .phone {
+          color: rgb(214, 214, 214);
+        }
+      }
+    }
+
+    .permalinks {
+      position: relative;
+      top: -4vh;
+      left: -7vw;
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 60vh;
+        width: 30vw;
+
+        li {
+          display: flex;
+
+          justify-content: space-around;
+          align-items: center;
+          // background-color: peru;
+          height: 15vh;
+          width: 7.5vw;
+          font-size: 14px;
+          font-weight: 200;
+          border-radius: 50%;
+
+          h3 {
+            color: aliceblue;
+            transition: 150 ease;
+
+            &:hover {
+              color: rgb(102, 100, 100);
+            }
+          }
+        }
+      }
+      div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+
+        left: 4vw;
+        top: 45vh;
+        display: flex;
+        justify-content: center;
+
+        .email {
+          position: relative;
+          left: -11vw;
+          top: -5vh;
+          color: aliceblue;
+          margin-left: 50px;
+          line-height: 1.2em;
+          font-size: 13.2px;
+          filter: brightness(0.4);
+        }
+      }
+      p {
+        position: relative;
+        top: -13vh;
+        transform: translateX(12vw);
+        color: aliceblue;
+      }
+    }
+
+    .testimonial {
+      // display: block;
+      // align-items: center;
+      // justify-content: center;
+      position: relative;
+      top: 0vh;
+      left: 0vw;
+      // background-color: rgb(202, 32, 32);
+      width: 100vw;
+      height: 100vh;
+
+      .test-article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        // background-color: yellow;
+        left: 0vw;
+        top: 0vh;
+
+        .testimonial1 {
+          background-color: purple;
+          top: 0vh;
+          left: 100vw;
+          position: relative;
+          width: 20vw;
+          height: 40vh;
+          transition: 1s ease all;
+
+          .testimonialImg {
+            position: relative;
+            top: -50vh;
+            left: 6vw;
+            width: 30vw;
+            height: 40vh;
+            z-index: 50;
+          }
+        }
+      }
+
+      .testifier {
+        font-weight: 600;
+        color: $textWhite;
+      }
+      .testimonial-txt {
+        letter-spacing: 0.5px;
+        color: $textWhite;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.portform {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 25vw;
+  height: 45vh;
+  position: relative;
+  top: -0vh;
+  left: 5vw;
+  @include Board();
+  background-color: $bluethemeEl;
+  border: 1px solid $litebluetheme;
+
+  input,
+  textarea {
+    position: relative;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    top: 15px;
+    left: 0vw;
+    width: 20vw;
+    height: 2vh;
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+    resize: none;
+  }
+
+  .portcnct {
+    position: relative;
+    left: 0vw;
+    width: 20vw;
+    resize: none;
+    height: 15vh;
+    border: none;
+  }
+  button {
+    width: 10vw;
+    height: 3.7rem;
+    border-radius: 5px;
+    border: none;
+    background-color: $litebluetheme;
+    color: $textWhite;
+    position: relative;
+    left: 0vw;
+    transform: scale(1);
+    transition: 500ms ease all;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .trustmain {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    top: 80vh;
+    background-color: blue;
+
+    .trustCont {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 0vh;
+      width: 105vw;
+      min-height: 90vh;
+      background-color: rgb(3, 0, 12);
+
+      .contacts {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        top: -15vh;
+        left: 0vw;
+        width: 20vw;
+        height: 60vh;
+
+        .ctc {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          left: 31vw;
+          top: -6vw;
+          width: 18vw;
+          height: 8vh;
+          background-color: rgba(26, 8, 107, 0.274);
+          margin-left: 70px;
+          border-radius: 10px;
+          transition: 400ms ease all;
+
+          &:hover {
+            background-color: rgba(12, 4, 44, 0.747);
+          }
+
+          .icon {
+            height: 5vh;
+            width: 3vw;
+          }
+          .facebook {
+            color: rgb(7, 7, 136);
+          }
+          .whatsapp {
+            color: rgb(6, 141, 40);
+          }
+          .phone {
+            color: rgb(214, 214, 214);
+          }
+        }
+      }
+
+      .permalinks {
+        position: relative;
+        top: -4vh;
+        left: 0vw;
+        ul {
+          position: relative;
+          top: -30vh;
+          display: block;
+          height: 60vh;
+          width: 30vw;
+
+          li {
+            position: relative;
+            top: 10vh;
+            left: 35vw;
+            display: flex;
+            margin-top: -90px;
+            justify-content: space-around;
+            align-items: center;
+            // background-color: peru;
+            height: 15vh;
+            width: 7.5vw;
+            font-size: 14px;
+            font-weight: 200;
+            border-radius: 50%;
+
+            h3 {
+              color: aliceblue;
+              transition: 150 ease;
+
+              &:hover {
+                color: rgb(102, 100, 100);
+              }
+            }
+          }
+        }
+        div {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          position: absolute;
+
+          left: -3vw;
+          top: 15vh;
+          display: flex;
+          justify-content: center;
+
+          .email {
+            position: relative;
+            left: -2vw;
+            top: 50vh;
+            color: aliceblue;
+            margin-left: 25px;
+            line-height: 1.2em;
+            font-size: 12.2px;
+            filter: brightness(0.4);
+          }
+        }
+        p {
+          position: relative;
+          left: 15vw;
+          top: 10vh;
+          font-size: 14px;
+          transform: translateX(12vw);
+          color: aliceblue;
+        }
+      }
+
+      .testimonial {
+        // display: block;
+        // align-items: center;
+        // justify-content: center;
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        // background-color: rgb(202, 32, 32);
+        width: 100vw;
+        height: 100vh;
+
+        .test-article {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100vw;
+          height: 100vh;
+          position: relative;
+          // background-color: yellow;
+          left: 0vw;
+          top: 0vh;
+
+          .testimonial1 {
+            background-color: purple;
+            top: 0vh;
+            left: 100vw;
+            position: relative;
+            width: 20vw;
+            height: 40vh;
+            transition: 1s ease all;
+
+            .testimonialImg {
+              position: relative;
+              top: -50vh;
+              left: 6vw;
+              width: 30vw;
+              height: 40vh;
+              z-index: 50;
+            }
+          }
+        }
+
+        .testifier {
+          font-weight: 600;
+          color: $textWhite;
+        }
+        .testimonial-txt {
+          letter-spacing: 0.5px;
+          color: $textWhite;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .portform {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 90vw;
+    height: 45vh;
+    position: relative;
+    top: -55vh;
+    left: 5vw;
+    @include Board();
+    background-color: $bluethemeEl;
+    border: 1px solid $litebluetheme;
+
+    input,
+    textarea {
+      position: relative;
+      font-family: "Prompt", sans-serif;
+      font-weight: 500;
+      top: 15px;
+      left: 0vw;
+      width: 80vw;
+      height: 2vh;
+      padding: 1.3rem;
+      border-radius: 0.5rem;
+      resize: none;
+    }
+
+    .portcnct {
+      position: relative;
+      left: 0vw;
+      width: 80vw;
+      resize: none;
+      height: 15vh;
+      border: none;
+    }
+    button {
+      width: 30vw;
+      height: 3.7rem;
+      border-radius: 5px;
+      border: none;
+      background-color: $litebluetheme;
+      color: $textWhite;
+      position: relative;
+      left: 0vw;
+      transform: scale(1);
+      transition: 500ms ease all;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .trustmain {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    top: 80vh;
+    background-color: blue;
+    z-index: 500;
+
+    .trustCont {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 0vh;
+      width: 105vw;
+      min-height: 90vh;
+      background-color: rgb(3, 0, 12);
+
+      .contacts {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        top: -15vh;
+        left: 0vw;
+        width: 20vw;
+        height: 60vh;
+
+        .ctc {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          left: 31vw;
+          top: -6vw;
+          width: 18vw;
+          height: 8vh;
+          background-color: rgba(26, 8, 107, 0.274);
+          margin-left: 70px;
+          border-radius: 10px;
+          transition: 400ms ease all;
+
+          &:hover {
+            background-color: rgba(12, 4, 44, 0.747);
+          }
+
+          .icon {
+            height: 5vh;
+            width: 3vw;
+          }
+          .facebook {
+            color: rgb(7, 7, 136);
+          }
+          .whatsapp {
+            color: rgb(6, 141, 40);
+          }
+          .phone {
+            color: rgb(214, 214, 214);
+          }
+        }
+      }
+
+      .permalinks {
+        position: relative;
+        top: -4vh;
+        left: 0vw;
+        ul {
+          position: relative;
+          top: -30vh;
+          display: block;
+          height: 60vh;
+          width: 30vw;
+
+          li {
+            position: relative;
+            top: 10vh;
+            left: 35vw;
+            display: flex;
+            margin-top: -90px;
+            justify-content: space-around;
+            align-items: center;
+            // background-color: peru;
+            height: 15vh;
+            width: 7.5vw;
+            font-size: 14px;
+            font-weight: 200;
+            border-radius: 50%;
+
+            h3 {
+              color: aliceblue;
+              transition: 150 ease;
+
+              &:hover {
+                color: rgb(102, 100, 100);
+              }
+            }
+          }
+        }
+        div {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          position: absolute;
+
+          left: -3vw;
+          top: 15vh;
+          display: flex;
+          justify-content: center;
+
+          .email {
+            position: relative;
+            left: -2vw;
+            top: 50vh;
+            color: aliceblue;
+            margin-left: 25px;
+            line-height: 1.2em;
+            font-size: 12.2px;
+            filter: brightness(0.4);
+          }
+        }
+        p {
+          position: relative;
+          left: 15vw;
+          top: 10vh;
+          font-size: 14px;
+          transform: translateX(12vw);
+          color: aliceblue;
+        }
+      }
+
+      .testimonial {
+        // display: block;
+        // align-items: center;
+        // justify-content: center;
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        // background-color: rgb(202, 32, 32);
+        width: 100vw;
+        height: 100vh;
+
+        .test-article {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100vw;
+          height: 100vh;
+          position: relative;
+          // background-color: yellow;
+          left: 0vw;
+          top: 0vh;
+
+          .testimonial1 {
+            background-color: purple;
+            top: 0vh;
+            left: 100vw;
+            position: relative;
+            width: 20vw;
+            height: 40vh;
+            transition: 1s ease all;
+
+            .testimonialImg {
+              position: relative;
+              top: -50vh;
+              left: 6vw;
+              width: 30vw;
+              height: 40vh;
+              z-index: 50;
+            }
+          }
+        }
+
+        .testifier {
+          font-weight: 600;
+          color: $textWhite;
+        }
+        .testimonial-txt {
+          letter-spacing: 0.5px;
+          color: $textWhite;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .portform {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 90vw;
+    height: 45vh;
+    position: relative;
+    top: -55vh;
+    left: 5vw;
+    @include Board();
+    background-color: $bluethemeEl;
+    border: 1px solid $litebluetheme;
+
+    input,
+    textarea {
+      position: relative;
+      font-family: "Prompt", sans-serif;
+      font-weight: 500;
+      top: 15px;
+      left: 0vw;
+      width: 80vw;
+      height: 2vh;
+      padding: 1.3rem;
+      border-radius: 0.5rem;
+      resize: none;
+    }
+
+    .portcnct {
+      position: relative;
+      left: 0vw;
+      width: 80vw;
+      resize: none;
+      height: 15vh;
+      border: none;
+    }
+    button {
+      width: 30vw;
+      height: 3.7rem;
+      border-radius: 5px;
+      border: none;
+      background-color: $litebluetheme;
+      color: $textWhite;
+      position: relative;
+      left: 0vw;
+      transform: scale(1);
+      transition: 500ms ease all;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .trustmain {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    top: 80vh;
+    background-color: blue;
+
+    .trustCont {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 0vh;
+      width: 105vw;
+      min-height: 90vh;
+      background-color: rgb(3, 0, 12);
+
+      .contacts {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        top: -15vh;
+        left: 0vw;
+        width: 20vw;
+        height: 60vh;
+
+        .ctc {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          left: 31vw;
+          top: -6vw;
+          width: 18vw;
+          height: 8vh;
+          background-color: rgba(26, 8, 107, 0.274);
+          margin-left: 70px;
+          border-radius: 10px;
+          transition: 400ms ease all;
+
+          &:hover {
+            background-color: rgba(12, 4, 44, 0.747);
+          }
+
+          .icon {
+            height: 5vh;
+            width: 3vw;
+          }
+          .facebook {
+            color: rgb(7, 7, 136);
+          }
+          .whatsapp {
+            color: rgb(6, 141, 40);
+          }
+          .phone {
+            color: rgb(214, 214, 214);
+          }
+        }
+      }
+
+      .permalinks {
+        position: relative;
+        top: -4vh;
+        left: 0vw;
+        ul {
+          position: relative;
+          top: -30vh;
+          display: block;
+          height: 60vh;
+          width: 30vw;
+
+          li {
+            position: relative;
+            top: 10vh;
+            left: 35vw;
+            display: flex;
+            margin-top: -90px;
+            justify-content: space-around;
+            align-items: center;
+            // background-color: peru;
+            height: 15vh;
+            width: 7.5vw;
+            font-size: 14px;
+            font-weight: 200;
+            border-radius: 50%;
+
+            h3 {
+              color: aliceblue;
+              transition: 150 ease;
+
+              &:hover {
+                color: rgb(102, 100, 100);
+              }
+            }
+          }
+        }
+        div {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          position: absolute;
+
+          left: -3vw;
+          top: 15vh;
+          display: flex;
+          justify-content: center;
+
+          .email {
+            position: relative;
+            left: -2vw;
+            top: 50vh;
+            color: aliceblue;
+            margin-left: 25px;
+            line-height: 1.2em;
+            font-size: 12.2px;
+            filter: brightness(0.4);
+          }
+        }
+        p {
+          position: relative;
+          left: 15vw;
+          top: 10vh;
+          font-size: 14px;
+          transform: translateX(12vw);
+          color: aliceblue;
+        }
+      }
+
+      .testimonial {
+        // display: block;
+        // align-items: center;
+        // justify-content: center;
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        // background-color: rgb(202, 32, 32);
+        width: 100vw;
+        height: 100vh;
+
+        .test-article {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100vw;
+          height: 100vh;
+          position: relative;
+          // background-color: yellow;
+          left: 0vw;
+          top: 0vh;
+
+          .testimonial1 {
+            background-color: purple;
+            top: 0vh;
+            left: 100vw;
+            position: relative;
+            width: 20vw;
+            height: 40vh;
+            transition: 1s ease all;
+
+            .testimonialImg {
+              position: relative;
+              top: -50vh;
+              left: 6vw;
+              width: 30vw;
+              height: 40vh;
+              z-index: 50;
+            }
+          }
+        }
+
+        .testifier {
+          font-weight: 600;
+          color: $textWhite;
+        }
+        .testimonial-txt {
+          letter-spacing: 0.5px;
+          color: $textWhite;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .portform {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 90vw;
+    height: 45vh;
+    position: relative;
+    top: -55vh;
+    left: 5vw;
+    @include Board();
+    background-color: $bluethemeEl;
+    border: 1px solid $litebluetheme;
+
+    input,
+    textarea {
+      position: relative;
+      font-family: "Prompt", sans-serif;
+      font-weight: 500;
+      top: 15px;
+      left: 0vw;
+      width: 80vw;
+      height: 2vh;
+      padding: 1.3rem;
+      border-radius: 0.5rem;
+      resize: none;
+    }
+
+    .portcnct {
+      position: relative;
+      left: 0vw;
+      width: 80vw;
+      resize: none;
+      height: 15vh;
+      border: none;
+    }
+    button {
+      width: 30vw;
+      height: 3.7rem;
+      border-radius: 5px;
+      border: none;
+      background-color: $litebluetheme;
+      color: $textWhite;
+      position: relative;
+      left: 0vw;
+      transform: scale(1);
+      transition: 500ms ease all;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

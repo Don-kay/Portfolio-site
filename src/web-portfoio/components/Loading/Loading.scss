@@ -1,0 +1,68 @@
+.loadermain {
+  position: absolute;
+  background-color: rgb(8, 8, 19);
+  height: 100vh;
+  width: 100vw;
+
+  .bg {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    filter: opacity(0.2) brightness(0.4);
+  }
+  section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 24);
+    min-height: 100vh;
+    width: 100vw;
+
+    h1 {
+      position: relative;
+      top: 5vh;
+      left: 7vw;
+      color: aliceblue;
+
+      span {
+        color: rgb(177, 13, 13);
+        font-size: 40px;
+        margin-left: 10px;
+      }
+    }
+    .contain {
+      position: relative;
+      top: -7vh;
+      transform: translate(45%, 130%);
+      box-shadow: 0 0 20px rgb(129, 117, 117), 0 0 50 px pink;
+      //   left: 40vw;
+      //   top: 30vh;
+      .logo {
+        width: 9vw;
+        height: 18.6vh;
+        background-color: aliceblue;
+        background-image: url("../../asset/ksansnew.png");
+        background-position: -155px -65px;
+        background-size: 30em;
+        background-repeat: repeat-x;
+        border-radius: 50%;
+        animation: rotate 20s ease infinite;
+
+        @keyframes rotate {
+          0% {
+            transform: rotateZ(0deg);
+          }
+          100% {
+            transform: rotateZ(360deg);
+          }
+        }
+      }
+      .text {
+        color: aliceblue;
+        transform: translateX(-4vw);
+        margin-top: 6vh;
+        font-size: 17px;
+      }
+    }
+  }
+}
